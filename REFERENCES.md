@@ -1,0 +1,8 @@
+# References
+
+1. Osa, T., Pajarinen, J., Neumann, G., Bagnell, J. A., Abbeel, P., and Peters, J. (2018). **An Algorithmic Perspective on Imitation Learning.** Foundations and Trends in Robotics. [Paper](https://arxiv.org/abs/1811.06711). Read the design-choice discussion in Section 2.1 and the behavior-cloning discussion; connect representation, demonstrator, and feedback access to this assignment.
+2. Ross, S., Gordon, G., and Bagnell, D. (2011). **A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning.** AISTATS, PMLR 15:627–635. [Paper and PDF](https://proceedings.mlr.press/v15/ross11a.html). Read Algorithm 3.1 and the motivation for querying labels on visited states. Our short finite-round teaching implementation uses a stochastic action mixture and does not establish the paper's asymptotic guarantees.
+3. Farama Foundation. **Gymnasium LunarLander-v3.** [Environment documentation](https://gymnasium.farama.org/environments/box2d/lunar_lander/) and [implementation, including heuristic teacher](https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/box2d/lunar_lander.py). This assignment pins Gymnasium 1.2.3 and adds a two-step action repeat and 600-step cap.
+4. Stockfish developers. **Stockfish.** [Official site](https://stockfishchess.org/) and [source](https://github.com/official-stockfish/Stockfish). Install separately and record the engine version. A limited-node engine is a practical teacher, not a proof of optimal action selection.
+
+Links checked during assignment development, September 2026. Repository links can evolve; pinned package versions identify the classroom implementations.

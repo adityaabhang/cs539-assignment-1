@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ilr-assignment1"
+version = "1.0.0"
+description = "CS59300-ILR: human demonstrations, behavior cloning, and DAgger"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "numpy>=1.26,<3", "torch>=2.2,<3", "gymnasium[box2d]==1.2.3",
+  "python-chess==1.999", "pygame==2.6.1",
+  "matplotlib>=3.8,<4"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "reportlab>=4,<6", "pypdf>=5,<7"]
+
+[project.scripts]
+ilr = "il_assignment.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["il_assignment*", "student*", "instructor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
