@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 *.egg-info/
 .pytest_cache/
-data/
+data/practice-*/
 runs/
 dist/
 tmp/

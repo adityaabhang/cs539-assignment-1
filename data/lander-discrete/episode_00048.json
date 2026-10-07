@@ -1,0 +1,26 @@
+{
+  "assisted_rows": 0,
+  "collection_seconds": 2.1033743129992217,
+  "human_rows": 32,
+  "mode": "human",
+  "outcome": {
+    "decisions": 32,
+    "physics_steps": 63,
+    "return": -156.60736157917592,
+    "success": 0.0,
+    "teacher": "Gymnasium 1.2.3 heuristic (not optimal)",
+    "truncated": false
+  },
+  "protocol": {
+    "action_repeat": 2,
+    "board_decisions": 20,
+    "board_max_plies": 160,
+    "domain": "lander-discrete",
+    "max_steps": 600,
+    "nodes": 1024,
+    "version": 1
+  },
+  "rows": 32,
+  "seed": 48,
+  "teacher": "Gymnasium 1.2.3 heuristic (not optimal)"
+}

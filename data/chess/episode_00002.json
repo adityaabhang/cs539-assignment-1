@@ -1,0 +1,28 @@
+{
+  "assisted_rows": 0,
+  "collection_seconds": 41.66820028700022,
+  "human_rows": 6,
+  "mode": "human",
+  "outcome": {
+    "capped": false,
+    "draw": 0.0,
+    "loss": 1.0,
+    "prefix_material": -1,
+    "score": 0.0,
+    "teacher": "Stockfish 16",
+    "white_moves": 6,
+    "win": 0.0
+  },
+  "protocol": {
+    "action_repeat": 2,
+    "board_decisions": 20,
+    "board_max_plies": 160,
+    "domain": "chess",
+    "max_steps": 600,
+    "nodes": 1024,
+    "version": 1
+  },
+  "rows": 6,
+  "seed": 2,
+  "teacher": "Stockfish 16"
+}
